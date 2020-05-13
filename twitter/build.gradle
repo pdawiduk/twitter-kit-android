@@ -62,11 +62,10 @@ ext.projectDependencies = [
 ]
 
 dependencies {
-    implementation ('com.github.pdawiduk:twitter-kit-android:1.2.4')
 
-    compile project(':twitter-core')
-    compile project(':tweet-composer')
-    compile project(':tweet-ui')
+    implementation project(':twitter-core')
+    implementation project(':tweet-composer')
+    implementation project(':tweet-ui')
 
     testCompile dependency.mockito
     testCompile dependency.junit
