@@ -60,7 +60,7 @@ android {
 }
 
 dependencies {
-    api project(':twitter-core')
+    project(':twitter-core')
 
     implementation dependency.picasso
     implementation dependency.tweetText
