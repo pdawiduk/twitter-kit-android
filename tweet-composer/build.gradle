@@ -64,6 +64,7 @@ dependencies {
 
     implementation dependency.picasso
     implementation dependency.tweetText
+    implementation project(path: ':twitter-core')
 
 
 }
