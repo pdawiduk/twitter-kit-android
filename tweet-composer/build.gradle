@@ -19,7 +19,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         versionCode 1
@@ -64,6 +63,5 @@ dependencies {
     implementation ('com.squareup.picasso:picasso:2.71828')
     implementation dependency.tweetText
     implementation project(path: ':twitter-core')
-
 
 }
