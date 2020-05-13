@@ -23,9 +23,11 @@ subprojects { Project subproject ->
             jcenter()
             google()
             maven { url 'https://maven.fabric.io/public' }
+            maven { url 'https://jitpack.io' }
         }
         dependencies {
             classpath dependency.androidGradlePlugin
+            implementation 'com.github.pdawiduk:twitter-kit-android:3.4'
         }
     }
 
