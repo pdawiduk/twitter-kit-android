@@ -27,7 +27,6 @@ subprojects { Project subproject ->
         }
         dependencies {
             classpath dependency.androidGradlePlugin
-            implementation 'com.github.pdawiduk:twitter-kit-android:3.4'
         }
     }
 
