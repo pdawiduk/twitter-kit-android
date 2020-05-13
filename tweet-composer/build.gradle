@@ -62,7 +62,7 @@ android {
 dependencies {
     project(':twitter-core')
 
-    implementation dependency.picasso
+    implementation ('com.squareup.picasso:picasso:2.71828')
     implementation dependency.tweetText
     implementation project(path: ':twitter-core')
 
